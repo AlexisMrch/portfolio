@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory  } from 'vue-router'
 import SkillsVue from '@/views/SkillsVue.vue'
 import ProfilVue from "@/views/ProfilVue.vue";
 
 const router = createRouter({
-  history: createWebHistory('/portfolio/'),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
