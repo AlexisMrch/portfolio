@@ -3,7 +3,7 @@ import SkillsVue from '@/views/SkillsVue.vue'
 import ProfilVue from "@/views/ProfilVue.vue";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/portfolio/'),
   routes: [
     {
       path: '/',
